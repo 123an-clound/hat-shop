@@ -1,0 +1,1 @@
+export default function Loading(){return <main id="main-content" className="container section" aria-busy="true"><p className="eyebrow">ĐANG TẢI CỬA HÀNG…</p><div className="product-grid">{[1,2,3,4].map(i=><div className="skeleton" key={i}/>)}</div></main>;}
